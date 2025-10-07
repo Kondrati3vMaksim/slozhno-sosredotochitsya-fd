@@ -1,5 +1,157 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+background-image: var(--bg-image);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+display: grid;
+font-family: var(--main-font-family);
+}
+
+.header {
+height: 100vh;
+min-height: 668px;
+display: grid;
+position: relative;
+align-items: center;
+ grid-template-rows: 1fr min-content 1fr;
+  grid-template-columns: 1fr;
+padding: clamp(10px , 2.65vw , 20px);
+}
+
+.header__title {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 116px;
+line-height: 83%;
+color: var(--header-logo-color);
+margin: 10px;}
+
+.header__subtitle {
+    background-color: var(--accent-color);
+    max-width: 355px;
+    
+}
+
+.title__decor {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: var(--main-line-height);
+color: var(--title-decor-color);
+}
+
+.header__theme-menu-list {
+    display: grid;
+    gap: 10px;
+}
+
+.header__theme-menu-button {
+padding: 2px 13px;
+background-color: inherit;
+border: none;
+font-size: var(--main-text-size);
+line-height: 130%;
+text-align: center;
+text-transform: lowercase;
+cursor: pointer;
+color: var(--accent-color);
+}
+
+.header__theme-menu-button_active {
+pointer-events: none;
+border: 1px solid var(--nav-color);
+}
+
+.header__theme-menu-button:focus-visible {
+border: none;
+outline: none;
+border-bottom: 1px solid var(--nav-color);
+}
+
+.header__theme-menu-button:hover {
+    outline: 1px solid var(--nav-hover-color);
+}
+
+.header__theme-menu {
+justify-self: end;
+margin: auto 10px;
+}
+
+.header__rec {
+text-transform: uppercase;
+color: var(--accent-color);
+font-weight: 400;
+font-size: var(--main-text-size);
+line-height: var(--main-line-height);
+justify-self: end;
+position: absolute;
+width: 10px;
+top: 18px;
+right: 83px;}
+
+.decorated-zone::after {
+content: "";
+position: absolute;
+width: 25px;
+height: 25px;
+border-bottom: 1px var(--corner-color) solid;
+border-left: 1px var(--corner-color) solid;
+left: var(--dec-gap);
+bottom: var(--dec-gap);
+}
+
+.decorated-zone::before {
+content: "";
+position: absolute;
+width: 25px;
+height: 25px;
+border-top: 1px var(--corner-color) solid;
+border-right: 1px var(--corner-color) solid;
+right: var(--dec-gap);
+top: var(--dec-gap);
+}
+.content {
+background-color: var(--main-bg-color);
+}
+
+.content-section__title {
+color: var(--accent-color);
+margin-bottom: 20px;
+font-weight: 700;
+}
+
+.text-block {
+margin-bottom:  ;}
+
+.text-block__title {
+background-color: var(--accent-color);
+color: var(--main-bg-color);
+margin-bottom: 10px;
+font-weight: 700;
+
+}
+
+.text-block__content {
+color: var(--main-text-color);
+margin-bottom: 10px;}
+
+.content {
+display: grid;
+gap: 50px;
+}
+
+.content-section {
+    font-size: 18px;
+font-style: normal;
+line-height: 130%;
+}
+
+.text-block__subtitle {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+background-color: var(--accent-color);
+color: var(--main-bg-color);
+margin-bottom: 10px;
 }
