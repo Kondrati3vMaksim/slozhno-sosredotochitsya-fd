@@ -5,6 +5,7 @@ background-size: cover;
 background-attachment: fixed;
 display: grid;
 font-family: var(--main-font-family);
+
 }
 
 .header {
@@ -12,23 +13,26 @@ height: 100vh;
 min-height: 668px;
 display: grid;
 position: relative;
-align-items: center;
  grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr;
 padding: clamp(10px , 2.65vw , 20px);
 }
 
 .header__title {
-font-family: var(--font-family);
+font-family: var(--main-font-family);
 font-weight: 700;
-font-size: 116px;
+font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 line-height: 83%;
 color: var(--header-logo-color);
-margin: 10px;}
+text-align: start;
+text-shadow: 4px 4px 0 var(--accent-color);}
 
 .header__subtitle {
     background-color: var(--accent-color);
     max-width: 355px;
+    align-self: center;
+    justify-self: end;
+    
     
 }
 
@@ -87,7 +91,14 @@ justify-self: end;
 position: absolute;
 width: 10px;
 top: 18px;
-right: 83px;}
+right: 83px;
+display: flex;}
+
+.header__rec::before {
+content: "";
+position: absolute;
+}
+ 
 
 .decorated-zone::after {
 content: "";
@@ -107,17 +118,26 @@ width: 25px;
 height: 25px;
 border-top: 1px var(--corner-color) solid;
 border-right: 1px var(--corner-color) solid;
-right: var(--dec-gap);
+right: 30px;
 top: var(--dec-gap);
 }
+
 .content {
 background-color: var(--main-bg-color);
+padding: 10px;
+display: grid;
+grid-template-columns: 1fr;
 }
 
 .content-section__title {
 color: var(--accent-color);
 margin-bottom: 20px;
 font-weight: 700;
+}
+
+.content-section {
+margin-top: 50px;
+
 }
 
 .text-block {
@@ -154,4 +174,45 @@ line-height: 130%;
 background-color: var(--accent-color);
 color: var(--main-bg-color);
 margin-bottom: 10px;
+}
+
+.gallery {
+margin-top: 50px;
+}
+
+.gallery__title {
+font-family: var(--main-font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 130%;
+color: var(--title-decor-color);
+background-color: var(--accent-color);
+}
+
+.gallery__list {
+display: grid;
+grid-template-columns: 1fr;
+margin-top: 10px;
+gap: 10px;
+}
+
+.gallery__image {
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+.footer {
+height: max(100vh, 668px)}
+
+.footer__title {
+font-family: var(--main-font-family);
+font-weight: 700;
+font-size: 116px;
+line-height: 83%;
+color: #db00ff;
+display: flex;
+justify-content:  center;
+position: relative;
+margin-top: 326px;
 }

@@ -22,7 +22,8 @@
 --corner-color: #ff0070;
 }
 
-.theme-light .header__rec {
+.theme-dark .header__rec  {
 display: block;
 }
+
 
