@@ -21,6 +21,12 @@
 --footer-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 --footer-logo-color: #db00ff;
 --corner-color: #ff0070;
+--link-color: #ff0070;
+--link-focus-color: #f1b2ce;
+--link-hover-color: #f1b2ce;
+--background-title-color: #ff0070;
+--background-subtitle-color: #ff0070;
+--title-shadow-color: #ff0070;
 }
 
 @media (width >= 768px) {
