@@ -38,3 +38,11 @@
 --footer-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 }
+
+@media (width >= 1024px) {
+:root {
+--main-gap: 20px;
+--header-logo-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+--footer-logo-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+}
+}
