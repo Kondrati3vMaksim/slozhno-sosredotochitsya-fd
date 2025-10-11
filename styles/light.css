@@ -20,6 +20,9 @@
 --header-logo-color: #ffc2e6;
 --footer-logo-color: #ffc2e6;
 --corner-color: #353430;
+--background-subtitle-color: #ff8dcb;
+--background-title-color: #ff8dcb;
+--title-decor-color: #353430;
 }
 
 .theme-light .header__rec {
