@@ -196,6 +196,14 @@
     margin-top : 20px;
 }
 
+.what .content-section__title  {
+margin-top: 20px;
+}
+
+.how .content-section__title {
+margin-top: 20px;
+}
+
 .text-block__subtitle {
     font-family     : var(--font-family);
     font-weight     : 400;
@@ -285,12 +293,20 @@ margin-top: 50px;}
         .content-section__title {
             grid-column: 1 / -1;
             max-width  : 236px;
+            margin-top: 20px;
         }
 
         .text-blocks {
             grid-column: 1 / -1;
             margin-top: 20px;
         }
+    }
+    .how .content-section__title {
+    margin-top: 30px;
+    }
+
+    .how .text-block {
+    margin-top: 30px;
     }
 
     .text-blocks {
