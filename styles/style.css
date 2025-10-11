@@ -3,7 +3,7 @@
     background-position  : center;
     background-size      : cover;
     background-attachment: fixed;
-    display              : grid;
+    background-repeat: no-repeat;
     font-family          : var(--main-font-family);
 
 }
@@ -43,7 +43,7 @@
     font-weight: 700;
     font-size  : var(--main-text-size);
     line-height: var(--main-line-height);
-    color      : var(--main-bg-color);
+    color      : var(--subtitle-decor-color);
 }
 
 .header__theme-menu {
@@ -51,7 +51,7 @@
     grid-column : 2;
     grid-row    : 1;
     align-self  : center;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 .header__theme-menu-list {
@@ -60,7 +60,7 @@
 }
 
 .header__theme-menu-button {
-    padding         : 2px 13px;
+    padding         : 1px 14px;
     background-color: inherit;
     border          : none;
     font-size       : var(--main-text-size);
@@ -97,8 +97,8 @@
     justify-self  : end;
     position      : absolute;
     width         : 10px;
-    top           : 20px;
-    right         : 70px;
+    top           : 10px;
+    right         : 60px;
 }
 
 .header__rec::before {
@@ -132,8 +132,8 @@
     height      : 25px;
     border-top  : 1px var(--corner-color) solid;
     border-right: 1px var(--corner-color) solid;
-    right       : 20px;
-    top         : 20px;
+    right       : 10px;
+    top         : 10px;
 }
 
 .content {
@@ -161,7 +161,7 @@
 
 .text-block__title {
     background-color: var(--background-title-color);
-    color           : var(--main-bg-color);
+    color           : var(--subtitle-decor-color);
     margin-bottom   : 10px;
     font-weight     : 700;
     line-height     : var(--main-line-height);
@@ -204,7 +204,7 @@
     font-size       : 18px;
     line-height     : var(--main-line-height);
     background-color: var(--background-subtitle-color);
-    color           : var(--main-bg-color);
+    color           : var(--subtitle-decor-color);
     margin-bottom   : 10px;
 }
 
@@ -213,12 +213,11 @@
 }
 
 .gallery__title {
-    margin-bottom   : 20px;
     font-family     : var(--main-font-family);
     font-weight     : 700;
     font-size       : var(--main-text-size);
     line-height     : var(--main-line-height);
-    color           : var(--title-decor-color);
+    color           : var(--subtitle-decor-color);
     background-color: var(--background-title-color);
 }
 
@@ -248,7 +247,7 @@
     font-weight : 700;
     font-size   : 116px;
     line-height : 83%;
-    color       : #db00ff;
+    color       : var(--footer-logo-color);
     justify-self: center;
     align-self  : center;
     position    : relative;

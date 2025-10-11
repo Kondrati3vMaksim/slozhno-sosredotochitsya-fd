@@ -27,6 +27,8 @@
 --background-title-color: #ff0070;
 --background-subtitle-color: #ff0070;
 --title-shadow-color: #ff0070;
+--title-decor-color: #ff0070;
+--subtitle-decor-color:#000028;
 }
 
 @media (width >= 768px) {
