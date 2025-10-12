@@ -335,6 +335,9 @@
             margin-bottom: 10px;
         }
 
+        .text-block__subtitle {
+        margin-top: 10px;}
+
         .text-block__content {
             margin-bottom: 21px;
         }
@@ -345,7 +348,7 @@
     }
 
     .gallery {
-        margin-top: 40px;
+        margin-top: 32px;
     }
 
     .gallery__title {
