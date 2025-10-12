@@ -1,5 +1,6 @@
 .page {
-    background-image     : var(--bg-image, #000028);
+    background-image     : var(--bg-image);
+    background-color: var(--main-bg-color);
     background-position  : center;
     background-size      : cover;
     background-attachment: fixed;
@@ -95,8 +96,8 @@
     justify-self  : end;
     position      : absolute;
     width         : 10px;
-    top           : 20px;
-    right         : 55px;
+    top           : 11px;
+    right         : 59px;
 }
 
 .header__rec::before {
@@ -106,7 +107,7 @@
     height          : 9px;
     border-radius   : 100%;
     top             : 7px;
-    right           : -43px;
+    right           : -40px;
     background-color: var(--main-heading-color);
     box-shadow      : 0 0 4px 2px var(--main-heading-color)
 }
@@ -119,8 +120,8 @@
     height       : 25px;
     border-bottom: 1px var(--corner-color) solid;
     border-left  : 1px var(--corner-color) solid;
-    left         : 10px;
-    bottom       : 20px;
+    left         : 11px;
+    bottom       : 10px;
 }
 
 .decorated-zone::before {
@@ -130,20 +131,20 @@
     height      : 25px;
     border-top  : 1px var(--corner-color) solid;
     border-right: 1px var(--corner-color) solid;
-    right       : 5px;
-    top         : 20px;
+    right       : 9px;
+    top         : 10px;
 }
 
 .content {
     padding              : 10px;
     display              : grid;
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 0px;
 }
 
 .content-section {
 display: grid;
-gap: 20px;
+gap: 0px;
 }
 
 .content-section__title {
@@ -153,9 +154,18 @@ gap: 20px;
     font-size  : var(--main-text-size);
     line-height: var(--main-line-height);
     max-width  : 355px;
-   
+    margin-bottom: 23px;
 }
 
+.why {
+margin-top: 30px;
+}
+
+.what {
+margin-top: 30px;}
+
+.how {
+margin-top: 30px;}
 
 
 .text-block {
@@ -170,7 +180,7 @@ gap: 20px;
     line-height     : var(--main-line-height);
     font-family     : var(--main-font-family);
     font-size: var(--main-text-size);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .text-block__subtitle {
