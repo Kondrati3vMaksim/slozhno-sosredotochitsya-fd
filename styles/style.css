@@ -138,7 +138,7 @@
 .content {
     display              : grid;
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 0px;
 }
 
 .content-section {
@@ -157,13 +157,11 @@ gap: 0px;
     font-size  : var(--main-text-size);
     line-height: var(--main-line-height);
     max-width  : 355px;
-    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .text-block {
     display   : grid;
-    margin-top: 10px;
-
 }
 
 .text-block__title {
@@ -173,12 +171,12 @@ gap: 0px;
     line-height     : var(--main-line-height);
     font-family     : var(--main-font-family);
     font-size: var(--main-text-size);
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .text-block__subtitle {
     font-weight     : 400;
-    margin-top: 10px;
+    margin-bottom: 10px;
    
 }
 
@@ -188,6 +186,7 @@ gap: 0px;
     font-weight  : 400;
     font-size    : var(--main-text-size);
     line-height  : var(--main-line-height);
+    margin-top: 9px;
 }
 
 .text__link {
@@ -205,6 +204,7 @@ gap: 0px;
 
 .gallery {
 padding: 10px;
+margin-top: 30px;
 }
 
 .gallery__title {
@@ -214,6 +214,7 @@ padding: 10px;
     line-height     : var(--main-line-height);
     color           : var(--subtitle-decor-color);
     background-color: var(--background-title-color);
+    margin-bottom: 10px;
 }
 
 
@@ -222,7 +223,6 @@ padding: 10px;
     display              : grid;
     grid-template-columns: 1fr;
     gap                  : 10px;
-
     font-size: 0;
 }
 
