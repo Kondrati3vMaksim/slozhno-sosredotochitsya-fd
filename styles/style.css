@@ -66,7 +66,7 @@
     text-align      : center;
     text-transform  : lowercase;
     cursor          : pointer;
-    color           : var(--link-color);
+    color           : var(--nav-color);
 }
 
 .header__theme-menu-button_active {
@@ -138,6 +138,12 @@
     padding              : 10px;
     display              : grid;
     grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+.content-section {
+display: grid;
+gap: 20px;
 }
 
 .content-section__title {
@@ -147,11 +153,12 @@
     font-size  : var(--main-text-size);
     line-height: var(--main-line-height);
     max-width  : 355px;
+   
 }
 
 
+
 .text-block {
-    margin-top: 10px;
     display   : grid;
 
 }
@@ -159,21 +166,21 @@
 .text-block__title {
     background-color: var(--background-title-color);
     color           : var(--subtitle-decor-color);
-    margin-bottom   : 10px;
     font-weight     : 700;
     line-height     : var(--main-line-height);
     font-family     : var(--main-font-family);
     font-size: var(--main-text-size);
+    margin-bottom: 10px;
 }
 
 .text-block__subtitle {
     font-weight     : 400;
-    margin-bottom   : 10px;
+    margin-bottom: 10px;
+   
 }
 
 .text-block__content {
     color        : var(--main-text-color);
-    margin-bottom: 10px;
     font-family  : var(--main-font-family);
     font-weight  : 400;
     font-size    : var(--main-text-size);
@@ -193,20 +200,15 @@
     outline: 1px solid var(--link-focus-color);
 }
 
+
+
 .content-section {
     font-size  : var(--main-text-size);
     font-style : normal;
     line-height: var(--main-line-height);
-    margin-top : 20px;
+    
 }
 
-.what .content-section__title {
-    margin-top: 20px;
-}
-
-.how .content-section__title {
-    margin-top: 20px;
-}
 
 .gallery {
     margin-top: 50px;
@@ -242,13 +244,12 @@
     min-height: 677px;
     position  : relative;
     display   : grid;
-    font-size : 116px;
 }
 
 .footer__title {
     font-family : var(--main-font-family);
     font-weight : 700;
-    font-size   : clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    font-size   : var(--footer-logo-size);
     line-height : 83%;
     color       : var(--footer-logo-color);
     justify-self: center;
@@ -259,7 +260,7 @@
 
 @media (width >=768px) {
     .header__title {
-        font-size   : clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+        font-size   : var(--header-logo-size);
         justify-self: start;
         margin-left : -20px;
     }
@@ -309,7 +310,7 @@
         grid-column: 2 / 4;
     }
 
-    .gallery{
+    .gallery {
         margin-top: 80px;
     }
 
