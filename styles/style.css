@@ -164,7 +164,7 @@
 .text-block__title {
     background-color: var(--background-title-color);
     color           : var(--subtitle-decor-color);
-    font-weight     : 400;
+    font-weight     : 700;
     line-height     : var(--main-line-height);
     font-family     : var(--main-font-family);
     font-size       : var(--main-text-size);
