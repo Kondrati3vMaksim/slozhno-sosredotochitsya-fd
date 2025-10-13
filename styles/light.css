@@ -52,6 +52,7 @@
     --subtitle-decor-color: #353430;
     --link-hover-color: rgba(50, 49, 45, 0.4);
     --link-focus-color:rgba(50, 49, 45, 0.4);
+    --link-color : #ff8dcb;
   }
 
   .header__rec {

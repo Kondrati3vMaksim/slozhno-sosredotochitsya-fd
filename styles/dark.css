@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --acent-color:#ff0070;
+--acent-color:#ff0070;
 --main-bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
 --main-text-color: #f1b2ce;
@@ -22,9 +22,9 @@
 --corner-color: #ff0070;
 --title-decor-color: #ff0070;
 --subtitle-decor-color:#000028;
- --background-subtitle-color: #ff0070;
-  --background-title-color: #ff0070;
-  --link-color: #ff0070;
+--background-subtitle-color: #ff0070;
+--background-title-color: #ff0070;
+--link-color: #ff0070;
 }
 
 .theme-dark .header__rec {
@@ -33,7 +33,7 @@ display: block;
 
 @media (prefers-color-scheme: dark) {
   :root {
-      --acent-color:#ff0070;
+--acent-color:#ff0070;
 --main-bg-color: #000028;
 --bg-image: url(../images/cover-image-dark.png);
 --main-text-color: #f1b2ce;
@@ -46,9 +46,9 @@ display: block;
 --corner-color: #ff0070;
 --title-decor-color: #ff0070;
 --subtitle-decor-color:#000028;
- --background-subtitle-color: #ff0070;
-  --background-title-color: #ff0070;
-  --link-color: #ff0070;
+--background-subtitle-color: #ff0070;
+--background-title-color: #ff0070;
+--link-color: #ff0070;
 }
 
 .theme-dark .header__rec {
