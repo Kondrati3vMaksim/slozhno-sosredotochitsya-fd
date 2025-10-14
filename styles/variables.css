@@ -28,19 +28,18 @@
 --background-subtitle-color: #ff0070;
 --title-shadow-color: #ff0070;
 --subtitle-decor-color:#000028;
-  --header-padding: 10px;
-  --main-gap: 50px;
-  --main-padding-vertical: 40px;
-  --main-padding-horizontal: 10px;
+--header-padding: 10px;
+--main-gap: 50px;
+--main-padding-vertical: 40px;
+--main-padding-horizontal: 10px;
 }
 
 @media (width >= 768px) {
 :root {
-    --header-padding: 20px;
-    --main-gap: 80px;
-    --main-margin-top: 60px;
-    --main-padding-vertical: 60px;
-    --main-padding-horizontal: 20px;
+--header-padding: 20px;
+--main-gap: 80px;
+--main-padding-vertical: 60px;
+--main-padding-horizontal: 20px;
 --header-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 --footer-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }

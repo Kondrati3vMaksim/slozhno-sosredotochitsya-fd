@@ -25,8 +25,9 @@
   --title-decor-color: #353430;
   --subtitle-decor-color: #353430;
   --link-hover-color: rgba(50, 49, 45, 0.4);
-    --link-focus-color:rgba(50, 49, 45, 0.4);
-    --link-color : #ff8dcb;
+  --link-focus-color:rgba(50, 49, 45, 0.4);
+  --link-color : #ff8dcb;
+  --title-shadow-color: #ff8dcb;
 }
 
 .theme-light .header__rec {
@@ -53,6 +54,7 @@
     --link-hover-color: rgba(50, 49, 45, 0.4);
     --link-focus-color:rgba(50, 49, 45, 0.4);
     --link-color : #ff8dcb;
+    --title-shadow-color: #ff8dcb;
   }
 
   .header__rec {
