@@ -348,7 +348,7 @@ flex-direction: column;}
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
+}
 
 @media (width >= 1024px) {
   .header__title {
