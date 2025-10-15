@@ -232,8 +232,8 @@ gap: 10px;
 .gallery__list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
   font-size: 0;
+  gap: 10px;
 }
 
 .gallery__image {
@@ -310,6 +310,10 @@ gap: 10px;
 
   .text-blocks {
     grid-column: 2 / 4;
+  }
+
+  .gallery {
+  gap: 0px; /* обнуление гапа, чтобы секция не съезжала */
   }
 
   .gallery__list {
