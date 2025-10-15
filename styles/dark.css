@@ -26,6 +26,8 @@
 --background-title-color: #ff0070;
 --link-color: #ff0070;
 --title-shadow-color: #ff0070;
+--link-focus-color:#f1b2ce;
+--link-hover-color: #f1b2ce;
 }
 
 .theme-dark .header__rec {
@@ -50,6 +52,8 @@ display: block;
 --background-subtitle-color: #ff0070;
 --background-title-color: #ff0070;
 --link-color: #ff0070;
+--link-focus-color: #f1b2ce;
+--link-hover-color: #f1b2ce;
 }
 
 .theme-dark .header__rec {
